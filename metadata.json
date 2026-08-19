@@ -1,0 +1,6 @@
+{
+  "name": "Mercure Serpong Alam Sutera",
+  "description": "Website resmi Hotel Bintang 4 Mercure Serpong Alam Sutera, Tangerang Selatan. Pengalaman menginap premium di jantung kawasan bisnis Alam Sutera.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

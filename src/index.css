@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6D28D9;
+  --color-primary-hover: #5B21B6;
+  --color-primary-dark: #4C1D95;
+  --color-primary-foreground: #FFFFFF;
+  --color-secondary: #EDE9FE;
+  --color-secondary-foreground: #4C1D95;
+  --color-accent: #D4AF37;
+  --color-accent-hover: #C59F27;
+  --color-accent-foreground: #1E1B4B;
+  --color-muted: #F5F3FF;
+  --color-muted-foreground: #64748B;
+  --color-border: #E2E8F0;
+  --color-background: #FFFFFF;
+  --color-foreground: #0F172A;
+  
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: 'Playfair Display', Georgia, serif;
+}
+
+@layer base {
+  :root {
+    --primary: #6D28D9;
+    --primary-foreground: #FFFFFF;
+    --secondary: #EDE9FE;
+    --secondary-foreground: #4C1D95;
+    --accent: #D4AF37;
+    --accent-foreground: #1E1B4B;
+    --muted: #F5F3FF;
+    --muted-foreground: #64748B;
+    --background: #FFFFFF;
+    --foreground: #0F172A;
+    --border: #E2E8F0;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: var(--foreground);
+    background-color: var(--background);
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: var(--font-heading);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4B5FD;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8B5CF6;
+}
