@@ -102,7 +102,7 @@ async function startServer() {
         guestEmail,
         guestPhone,
         specialRequests,
-        hotelContact: "+62 21 2966 8668",
+        hotelContact: "+62 21 296 6866",
       },
     });
   });
